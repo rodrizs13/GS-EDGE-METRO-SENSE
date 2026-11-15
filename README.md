@@ -88,6 +88,7 @@ Matheus de Amorim Brito — RM: 572435
 Eduardo Felix Frois Silva — RM: 574103
 
 Lucas Rodrigues dos Santos — RM: 571778
+
 ---
 
 **MetroSense — Monitoramento inteligente para ambientes metroviários.**
