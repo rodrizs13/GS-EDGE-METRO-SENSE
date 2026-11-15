@@ -98,7 +98,7 @@ Isso significa que o dispositivo recebe os dados do sensor, analisa as informaç
 
 ### Link da simulação
 
-[INSERIR LINK PÚBLICO DO WOKWI](https://wokwi.com/projects/480772350122977281)
+https://wokwi.com/projects/480772350122977281
 
 ### Integrantes
 
