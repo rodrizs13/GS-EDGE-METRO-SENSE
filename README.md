@@ -79,13 +79,15 @@ https://wokwi.com/projects/480772350122977281
 
 ### Integrantes]
 
-Gabriel Henrique Ongarelli Reis 572636
-Vinicius Scalone Ramires 573783
-Matheus de Amorim Brito RM572435
-Eduardo Felix Frois Silva 574103
-Lucas Rodrigues dos Santos 571778
+Gabriel Henrique Ongarelli Reis — RM: 572636
 
+Vinicius Scalone Ramires — RM: 573783
 
+Matheus de Amorim Brito — RM: 572435
+
+Eduardo Felix Frois Silva — RM: 574103
+
+Lucas Rodrigues dos Santos — RM: 571778
 ---
 
 **MetroSense — Monitoramento inteligente para ambientes metroviários.**
