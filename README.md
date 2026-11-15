@@ -77,7 +77,8 @@ Isso significa que o dispositivo recebe os dados do sensor, analisa as informaç
 
 https://wokwi.com/projects/480772350122977281
 
-### Integrantes
+### Integrantes]
+
 Gabriel Henrique Ongarelli Reis 572636
 Vinicius Scalone Ramires 573783
 Matheus de Amorim Brito RM572435
