@@ -1,4 +1,3 @@
-# GS-EDGE-METRO-SENSE
 # MetroSense
 
 ## Monitoramento inteligente de condições ambientais em estações de metrô
@@ -10,6 +9,33 @@ O MetroSense é um projeto de IoT desenvolvido para monitorar as condições amb
 A ideia é criar um sistema capaz de acompanhar o ambiente e emitir alertas automaticamente quando as condições monitoradas saírem dos limites definidos.
 
 O diferencial do projeto é o uso de Edge Computing, permitindo que o próprio ESP32 processe as informações e tome decisões sem depender de um servidor ou conexão com a internet.
+
+## Demonstração do projeto
+
+Abaixo estão alguns registros da simulação mostrando como o MetroSense reage em diferentes situações.
+
+### 1. Temperatura normal
+
+<img width="943" height="612" alt="image" src="https://github.com/user-attachments/assets/15b509b1-f428-4ce8-9b07-e29b2ef958c7" />
+
+
+Quando a temperatura está entre 18 °C e 28 °C, o LED verde acende e o display informa que a operação está normal.
+
+### 2. Calor excessivo
+
+<img width="949" height="622" alt="image" src="https://github.com/user-attachments/assets/a8d935f0-2451-4059-9acd-e5a324c0c54e" />
+
+
+Quando a temperatura passa de 28 °C, o LED vermelho acende e o display mostra o alerta de calor excessivo.
+
+### 3. Frio excessivo
+
+<img width="925" height="615" alt="image" src="https://github.com/user-attachments/assets/a087ccb0-128c-4500-8149-0360a10cfbf3" />
+
+
+Quando a temperatura fica abaixo de 18 °C, o LED vermelho acende e o display informa o alerta de frio excessivo.
+
+---
 
 ### Objetivo
 
@@ -31,11 +57,9 @@ O sensor DHT22 realiza leituras de temperatura e umidade do ambiente. Essas info
 
 O sistema trabalha com três situações:
 
-- **Ambiente normal:** temperatura entre 18 °C e 28 °C. O LED verde acende e o sistema informa que a operação está normal.
-- **Calor excessivo:** temperatura acima de 28 °C. O LED vermelho acende e o sistema emite um alerta de calor.
-- **Frio excessivo:** temperatura abaixo de 18 °C. O LED vermelho acende e o sistema emite um alerta de baixa temperatura.
-
-Caso ocorra uma falha na leitura do sensor, o sistema também informa o erro.
+- **Ambiente normal:** temperatura entre 18 °C e 28 °C.
+- **Calor excessivo:** temperatura acima de 28 °C.
+- **Frio excessivo:** temperatura abaixo de 18 °C.
 
 Os limites utilizados são valores definidos para demonstrar o funcionamento do protótipo, não limites oficiais de segurança do metrô.
 
@@ -69,25 +93,20 @@ Isso significa que o dispositivo recebe os dados do sensor, analisa as informaç
 
 1. Acesse o link público do projeto no Wokwi.
 2. Inicie a simulação.
-3. Observe as informações e os alertas apresentados no display.
-4. Altere a temperatura do DHT22 para testar as diferentes situações.
-5. Observe a mudança dos LEDs conforme as condições detectadas.
+3. Altere a temperatura do DHT22 para testar as diferentes situações.
+4. Observe as informações no display e a mudança dos LEDs.
 
 ### Link da simulação
 
-https://wokwi.com/projects/480772350122977281
+[INSERIR LINK PÚBLICO DO WOKWI](https://wokwi.com/projects/480772350122977281)
 
-### Integrantes]
+### Integrantes
 
-Gabriel Henrique Ongarelli Reis — RM: 572636
-
-Vinicius Scalone Ramires — RM: 573783
-
-Matheus de Amorim Brito — RM: 572435
-
-Eduardo Felix Frois Silva — RM: 574103
-
-Lucas Rodrigues dos Santos — RM: 571778
+- Gabriel Henrique Ongarelli Reis — RM: 572636
+- Vinicius Scalone Ramires — RM: 573783
+- Matheus de Amorim Brito — RM: 572435
+- Eduardo Felix Frois Silva — RM: 574103
+- Lucas Rodrigues dos Santos — RM: 571778
 
 ---
 
