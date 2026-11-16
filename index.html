@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetroSense | Monitoramento Urbano</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-icon">M</div>
+            <div>
+                <h2>METROSENSE</h2>
+                <span>URBAN INTELLIGENCE</span>
+            </div>
+        </div>
+
+        <div class="menu-label">PLATAFORMA</div>
+        <nav>
+            <a class="active" href="#">Visão geral</a>
+            <a href="#ambiente">Monitoramento</a>
+            <a href="#historico">Histórico</a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <span class="online-dot"></span>
+            <span>Plataforma operacional</span>
+        </div>
+    </aside>
+
+    <main class="main-content">
+
+        <header class="topbar">
+            <div>
+                <span class="eyebrow">CENTRAL DE MONITORAMENTO</span>
+                <h1>Visão geral</h1>
+            </div>
+            <div class="connection">
+                <span class="online-dot"></span>
+                <span id="conexao">Conectando...</span>
+            </div>
+        </header>
+
+        <section class="station-header">
+            <div>
+                <span class="eyebrow">ESTAÇÃO MONITORADA</span>
+                <h2>MetroSense <span class="station-tag">ESTAÇÃO 01</span></h2>
+                <p>Monitoramento das condições ambientais em tempo real</p>
+            </div>
+            <div class="station-symbol">M</div>
+        </section>
+
+        <section class="environment" id="ambiente">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">ANÁLISE AMBIENTAL</span>
+                    <h2>Condição atual</h2>
+                </div>
+                <span class="live-label">LIVE DATA</span>
+            </div>
+
+            <div class="condition-panel">
+                <div>
+                    <span class="eyebrow">STATUS TÉRMICO</span>
+                    <h2 id="estado">Aguardando dados</h2>
+                    <p id="mensagem">Recebendo informações do dispositivo IoT.</p>
+                </div>
+                <div class="condition-indicator" id="indicador">--</div>
+            </div>
+
+            <div class="metrics">
+                <div class="metric temperature">
+                    <span class="metric-label">TEMPERATURA</span>
+                    <div><strong id="temperatura">--</strong><small>°C</small></div>
+                    <span class="metric-foot">Sensor DHT22</span>
+                </div>
+
+                <div class="metric humidity">
+                    <span class="metric-label">UMIDADE DO AR</span>
+                    <div><strong id="umidade">--</strong><small>%</small></div>
+                    <span class="metric-foot">Sensor DHT22</span>
+                </div>
+
+                <div class="metric">
+                    <span class="metric-label">ÚLTIMA ATUALIZAÇÃO</span>
+                    <div><strong class="update-value" id="atualizacao">--:--</strong></div>
+                    <span class="metric-foot">Dados do ThingSpeak</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="history" id="historico">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">DADOS DO DISPOSITIVO</span>
+                    <h2>Histórico ambiental</h2>
+                </div>
+                <span class="history-period">ÚLTIMAS 20 LEITURAS</span>
+            </div>
+
+            <div class="chart-panel">
+                <canvas id="grafico"></canvas>
+            </div>
+        </section>
+
+        <footer>
+            <span>METROSENSE © 2026</span>
+            <span>ESP32 · THINGSPEAK · IOT CLOUD</span>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
