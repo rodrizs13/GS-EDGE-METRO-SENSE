@@ -131,6 +131,9 @@ A arquitetura do projeto é dividida em três partes:
 ### Link da simulação
 
 https://wokwi.com/projects/480772350122977281
+### Link do video
+
+https://youtu.be/Tso1aPJePTE
 
 ### Canal ThingSpeak
 
